@@ -1,6 +1,6 @@
 ---
-title : "포스트 제목"
-excerpt : "포스트 소개긋"
+title : "알고리즘 테스트"
+excerpt : "테스트"
 
 categories : 
         - ProblemSolving
