@@ -3,7 +3,7 @@ title : "알고리즘 테스트"
 excerpt : "테스트"
 
 categories : 
-        - ProblemSolving
+        - problemSolving
 toc : true
 toc_sticky : true
 

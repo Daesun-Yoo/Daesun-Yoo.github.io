@@ -3,7 +3,7 @@ title : "포스트 제목"
 excerpt : "포스트 소개긋"
 
 categories : 
-        - Blog
+        - Language
 toc : true
 toc_sticky : true
 
