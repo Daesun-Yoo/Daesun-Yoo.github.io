@@ -1,5 +1,6 @@
 ---
 title : "포스트 제목"
+classes : wide
 excerpt : "포스트 소개긋"
 
 categories : 
