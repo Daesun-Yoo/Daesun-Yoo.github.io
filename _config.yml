@@ -20,7 +20,7 @@ title                    : "YDS Company"
 title_separator          : "-"
 subtitle                 : "개발 꿈나무"# site tagline that appears below site title in masthead
 name                     : "Daesun-Yoo"
-description              : "An amazing website."
+description              : "늦었을 때 시작하자"
 url                      : "https://Daesun-Yoo.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,10 +95,10 @@ analytics:
 # Site Author
 author:
   name             : "Daesun Yoo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/yds.jpg"
   bio              : "늦었을때 시작하자"
   location         : "Seoul"
-  email            :
+  email            : "showep12@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
