@@ -5,7 +5,7 @@ excerpt : "포스트 소개긋"
 categories : 
         - Language
 toc : true
-toc_sticky : true
+toc_sticky : false
 
 date : 2021-05-02
 last_modified_at: 2021-05-02
