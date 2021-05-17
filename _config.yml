@@ -274,13 +274,11 @@ defaults:
       path: ""
       type: posts
     values:
-      sidebar_main : true
-      sidebar_main: true
+      sidebar_main : true      
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
-      related: true
-      sidebar_main : true
+      related: true      
       mathjax: true
