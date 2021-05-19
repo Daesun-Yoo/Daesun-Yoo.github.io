@@ -100,25 +100,13 @@ author:
   location         : "Seoul"
   email            : "showep12@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "showep12@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://Daesun-Yoo.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Daesun-Yoo/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
+    
 # Site Footer
 footer:
   links:
