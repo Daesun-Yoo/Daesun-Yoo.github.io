@@ -2,8 +2,7 @@
 main:
   - title: "Home"
     url: https://daesun-yoo.github.io/
-  - title: "Resume"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+  
   - title: "Category"
     url: /year-archive/
  
