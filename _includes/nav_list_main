@@ -41,8 +41,7 @@
                         <li><a href="/categories/Algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            
+            </ul>            
         <span class="nav__sub-title">프로그래밍 기초</span>
             <ul>
                 {% for category in site.categories %}
@@ -58,9 +57,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
-
-      <span class="nav__sub-title">미니 프로젝트</span>
+        <span class="nav__sub-title">미니 프로젝트</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "WindowServiceMonitor" %}
@@ -69,5 +66,6 @@
                 {% endfor %}
             </ul>            
       </li>
+      </li>        
   </ul>
 </nav>
