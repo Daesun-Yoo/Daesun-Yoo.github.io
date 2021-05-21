@@ -4,7 +4,7 @@ classes : wide
 excerpt : "포스트 소개긋"
 
 categories : 
-        - Language
+        - Algorithm
 toc : true
 toc_sticky : true
 

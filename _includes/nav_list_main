@@ -17,14 +17,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 문제({{category[1].size}})</a></li>
+                        <li><a href="/categories/Programmers" class="">프로그래머스 문제({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "otherProblems" %}
-                        <li><a href="/categories/otherProblems" class="">기타 코딩테스트 문제({{category[1].size}})</a></li>
+                        <li><a href="/categories/OtherProblems" class="">기타 코딩테스트 문제({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -63,7 +63,7 @@
       <span class="nav__sub-title">Toy Projects</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "windowServiceMonitor" %}
+                    {% if category[0] == "WindowServiceMonitor" %}
                         <li><a href="/categories/problemSolving" class="">Windows Service Monitor ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
