@@ -16,14 +16,14 @@
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "programmers" %}
+                    {% if category[0] == "Programmers" %}
                         <li><a href="/categories/Programmers" class="">프로그래머스 문제({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "otherProblems" %}
+                    {% if category[0] == "OtherProblems" %}
                         <li><a href="/categories/OtherProblems" class="">기타 코딩테스트 문제({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
