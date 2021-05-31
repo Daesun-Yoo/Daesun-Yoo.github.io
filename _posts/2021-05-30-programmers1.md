@@ -44,7 +44,7 @@ array	commands	return
 
 # 2. 풀이 로직
 
-# 3. 풀이 소스 코드 - Python 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
+# 3. 소스 코드 - Python
 <script src="https://gist.github.com/Daesun-Yoo/ba33ea1deb14121b73c5abe01a6df542.js"></script>
+
