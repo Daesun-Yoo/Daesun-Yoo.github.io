@@ -1,10 +1,10 @@
 ---
-title : "Windows Server Monitor"
+title : "도커"
 layout : archive
-permalink : categories/WindowServiceMonitor
+permalink : categories/Docker
 author_profile : true
 sidebar_main : true
 ---
 
-{% assign posts = site.categories.WindowServiceMonitor %}
+{% assign posts = site.categories.Docker %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
