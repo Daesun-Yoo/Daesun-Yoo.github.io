@@ -1,10 +1,10 @@
 ---
-title : "프로그래밍 기초"
+title : "Javascript"
 layout : archive
-permalink : categories/Language
+permalink : categories/Javascript
 author_profile : true
 sidebar_main : true
 ---
 
-{% assign posts = site.categories.Language %}
+{% assign posts = site.categories.Javascript %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
