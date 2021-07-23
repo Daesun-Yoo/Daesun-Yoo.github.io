@@ -70,7 +70,21 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "WebBasic" %}
-                        <li><a href="/categories/WebBasic" class="">웹 개발 짓 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/WebBasic" class="">웹 기본 개념 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "HTML" %}
+                        <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CSS" %}
+                        <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -174,21 +188,7 @@
                         <li><a href="/categories/Dart" class="">Dart ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "HTML" %}
-                        <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CSS" %}
-                        <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            </ul>            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Javascript" %}
